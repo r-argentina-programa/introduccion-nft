@@ -32,7 +32,6 @@
     "esbuild": "^0.14.43"
   },
   "dependencies": {
-    "buffer": "^6.0.3",
     "stellar-sdk": "^10.1.2"
   }
 }
