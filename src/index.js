@@ -12,7 +12,8 @@ const tx = new TransactionBuilder(await server.loadAccount("GC2FYDXGZKVYJXTJ7U2E
     asset: Asset.native(),
     destination: "GC2FYDXGZKVYJXTJ7U2EK4YI6YKVCSHFZQHL24VM5K7V2S3F62FKAJPS",
 }))
-    .setTimeout(30).build();
+    .setTimeout(30)
+    .build();
 
 const keyPair = Keypair.fromSecret("SBFOJVJHCKYKICNRCM5E65LTL7AAFJEERSRV6ZC3MMZUOCW2JWEFAA7E");
 tx.sign(keyPair);
