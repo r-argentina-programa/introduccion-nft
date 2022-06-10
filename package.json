@@ -1,0 +1,28 @@
+{
+  "name": "introduccion-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.js --platform=node --bundle --outfile=dist/index.js",
+    "watch": "esbuild src/index.js --platform=node --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-argentina-programa/introduccion-nft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-argentina-programa/introduccion-nft/issues"
+  },
+  "homepage": "https://github.com/r-argentina-programa/introduccion-nft#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.43"
+  },
+  "dependencies": {
+    "stellar-sdk": "^10.1.2"
+  }
+}
